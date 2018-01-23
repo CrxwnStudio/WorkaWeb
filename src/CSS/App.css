@@ -1,0 +1,29 @@
+.App-body{
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.App-WorkArea{
+
+    width: 75%;
+    height: 100%;
+    background-color: #ffffff;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App-MenuArea{
+    background-color: #1e1e1e;
+    width:25%;
+    height: 100%;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
